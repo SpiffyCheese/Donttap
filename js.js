@@ -427,6 +427,7 @@ function calculatePat() {
       } else {
       pround=4;
       drawPAT();
+      pressKey.innerHTML=patAmt;
     }
   }
 }
